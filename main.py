@@ -2,11 +2,11 @@ import os
 import json
 from PIL import Image, ImageDraw
 
-image_folder = "images"
-json_folder = "json"
+image_folder = "data/images"
+json_folder = "data/json"
 
-output_mask = "output_mask"
-output_images = "output_images"
+output_mask = "output/output_mask"
+output_images = "output/output_images"
 
 os.makedirs(output_mask, exist_ok=True)
 os.makedirs(output_images, exist_ok=True)
